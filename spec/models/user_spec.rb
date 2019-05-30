@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe User do
-  it 'exists' do
+  xit 'exists' do
     user = User.create(name: "Andrew", password: "asdf")
 
     expect(user).to be_a(User)
